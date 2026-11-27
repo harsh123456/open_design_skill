@@ -1,0 +1,4 @@
+# Bundled Open Design content snapshot (fetch with: node scripts/fetch-content.mjs)
+/repo/
+.DS_Store
+*-workspace/
