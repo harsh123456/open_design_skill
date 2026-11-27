@@ -1,0 +1,23 @@
+{
+  "skill_name": "open-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Make me a short 5-slide seed-round pitch deck for a fictional startup called 'Ledgerly' (AI bookkeeping for freelancers), using the Stripe design system.",
+      "expected_output": "Binds stripe + a non-stub deck template that accepts a design system (e.g. simple-deck) in .open-design.json; writes a 5-slide index.html in cwd using Stripe tokens.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "build a SaaS analytics dashboard prototype for our churn metrics that looks like Linear",
+      "expected_output": "Binds linear design system + a prototype-mode dashboard template; reads craft files listed in od.craft.requires; writes the dashboard into cwd.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need a video generation prompt for a 15s product teaser of a smart water bottle, something cinematic",
+      "expected_output": "Uses list-prompt-templates.mjs video to pick a suitable template, fills its argument placeholders from the brief, and returns the completed prompt.",
+      "files": []
+    }
+  ]
+}
